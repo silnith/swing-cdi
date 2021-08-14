@@ -33,7 +33,7 @@
 			<id>silnith</id>
 			<name>Kent Rosenkoetter</name>
 			<email>silnith@gmail.com</email>
-			<timezone>Americas/Los_Angeles</timezone>
+			<timezone>America/Los_Angeles</timezone>
 			<organization>silnith.org</organization>
 			<organizationUrl>https://silnith.org</organizationUrl>
 			<roles>
