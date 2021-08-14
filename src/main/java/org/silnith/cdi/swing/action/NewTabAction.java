@@ -3,16 +3,19 @@ package org.silnith.cdi.swing.action;
 import java.awt.event.ActionEvent;
 
 import javax.enterprise.context.ApplicationScoped;
+import javax.enterprise.inject.Default;
 import javax.inject.Inject;
 import javax.swing.AbstractAction;
 import javax.swing.Action;
 import javax.swing.SwingUtilities;
 
-import org.silnith.cdi.swing.annotation.Frame;
+import org.silnith.cdi.swing.Menus;
+import org.silnith.cdi.swing.annotation.Menu;
 
 
 @ApplicationScoped
-@Frame
+@Default
+@Menu(Menus.FRAME)
 public class NewTabAction extends AbstractAction implements Action {
 
     @Inject
